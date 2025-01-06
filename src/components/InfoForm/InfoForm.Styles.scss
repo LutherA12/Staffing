@@ -1,0 +1,31 @@
+.main-form-container {
+  background-color: lightcoral;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  width: 30vw;
+  margin: auto;
+  align-items: center;
+  font-size: 34px;
+}
+
+.form {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  align-items: center;
+  margin: auto;
+  row-gap: 25px;
+}
+
+.form-submit-button {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-fields {
+  padding: 5px;
+  text-align: center;
+}
