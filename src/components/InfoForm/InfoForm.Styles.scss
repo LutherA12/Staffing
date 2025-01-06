@@ -1,6 +1,12 @@
-.main-form-container {
+.main-app-container {
+  width: 30vw;
+  margin: 15vh auto;
+  height: 100%;
+  padding: 10px 0px;
   background-color: lightcoral;
-  border: 1px solid black;
+}
+
+.main-form-container {
   border-radius: 5px;
   display: flex;
   width: 30vw;
@@ -10,22 +16,24 @@
 }
 
 .form {
-  background-color: lightblue;
-  display: flex;
-  flex-direction: column;
-  width: 20vw;
-  align-items: center;
   margin: auto;
-  row-gap: 25px;
 }
 
-.form-submit-button {
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.input-fields {
-  padding: 5px;
+.disclaimer-note {
+  display: flex;
   text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 10px auto;
+}
+
+.faqs-link-container {
+  display: flex;
+  justify-content: center;
+  width: 7vw;
+  margin: 25px auto;
+  font-size: 22px;
+  cursor: pointer;
+  text-decoration: none;
+  color: blue;
 }

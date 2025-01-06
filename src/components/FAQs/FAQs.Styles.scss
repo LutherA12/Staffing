@@ -1,0 +1,46 @@
+.main-faqs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 85vw;
+  margin: 10vh auto;
+  font-size: 30px;
+  background-color: lightcoral;
+}
+
+.faqs-heading {
+  margin-bottom: 60px;
+  text-decoration: underline;
+}
+
+.faqs-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  background-color: lightblue;
+}
+
+.faqs-questions {
+  text-decoration: underline;
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+
+.faqs-answers {
+  font-size: 25px;
+  padding: 10px 25px;
+}
+
+.faqs {
+  letter-spacing: 1px;
+  line-height: 40px;
+}
+
+.home-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: blue;
+}

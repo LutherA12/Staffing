@@ -1,0 +1,21 @@
+.main-checkbox-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox-prompt {
+  display: flex;
+  font-size: 18px;
+  text-align: center;
+}
+
+.checkboxs {
+  cursor: pointer;
+}
+
+.checkbox-labels {
+  font-size: 23px;
+  padding: 7px;
+}

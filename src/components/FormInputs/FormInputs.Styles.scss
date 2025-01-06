@@ -1,0 +1,21 @@
+.main-inputs-container {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  align-items: center;
+  row-gap: 25px;
+}
+
+.input-fields {
+  display: flex;
+  padding: 3px 25px;
+  text-align: center;
+  font-size: var(--font-size);
+}
+
+.form-submit-button {
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: var(--font-size);
+  cursor: pointer;
+}
