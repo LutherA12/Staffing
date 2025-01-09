@@ -58,6 +58,12 @@ export const faqsInfo = [
   },
   {
     question:
+      "Is there a way for me to keep track of my information in your system?",
+    answer:
+      "Yes, once you submit your information you will be given an ID number. You don't need to copy the full thing just the first 5 characters are fine, you can then call us at anytime & ask to review the information you've given to us.",
+  },
+  {
+    question:
       "How long is the turnaround time for the background check, communication for the new job, etc.?",
     answer:
       "This is a difficult question to answer because the background check depends on your history. Generally it takes about 2 weeks for a background check to come back provided it's clean, after that we can move further into the onboarding process.",
@@ -65,6 +71,18 @@ export const faqsInfo = [
   {
     question: "How will you keep in contact with me?",
     answer:
-      "We generally prefer emails, they are less intrusive & you can check them at your leasure. We will call you for something important or urgent.",
+      "We generally prefer emails, they are less intrusive & you can check them at your leasure, however, we will call you for something important, urgent or if that's the only communication method you've given us.",
+  },
+  {
+    question:
+      "Are there required fields that I need to fill out in order to submit the form?",
+    answer:
+      "Yes, first name, last name, ss number & phone number are all required information.",
+  },
+  {
+    question:
+      "Why are those specific pieces of information required to fill out this form?",
+    answer:
+      "First & last name so that we know who to communicate with : ss number so that we can perform the necessary background check : phone number so that we can get ahold of you since everyone (generally) has a phone where they can be reached, but believe it or not, not everyone has an email address. ",
   },
 ];

@@ -3,10 +3,11 @@ import { app } from "../../utils/firebaseConfig";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 import { useState } from "react";
 import { FormDropdowns, FormInputs } from "../exports";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Form() {
   const db = getFirestore(app);
+  const navigate = useNavigate();
 
   const [fName, setFName] = useState("");
   const [lName, setLName] = useState("");
@@ -70,10 +71,12 @@ export default function Form() {
     setDropdown1("");
     setDropdown2("");
     setDropdown3("");
+
+    navigate("/ThankYou");
   };
 
   return (
-    <div className="main-form-container">
+    <form className="main-form-container" onSubmit={submitDataHandler}>
       <FormInputs
         fName={fName}
         lName={lName}
@@ -96,18 +99,10 @@ export default function Form() {
         setDropdown2={setDropdown2}
         setDropdown3={setDropdown3}
       />
-      {/*Link not working when button is clicked*/}
-      <Link to="/ThankYou">
+      <button className="form-submit-button" type="submit">
         {" "}
-        <button
-          className="form-submit-button"
-          type="button"
-          onClick={submitDataHandler}
-        >
-          {" "}
-          Submit
-        </button>
-      </Link>
-    </div>
+        Submit
+      </button>
+    </form>
   );
 }
