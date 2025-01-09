@@ -1,5 +1,5 @@
 import "./InfoForm.Styles.scss";
-import { FormInputs } from "../exports";
+import { Form } from "../exports";
 import { Link } from "react-router-dom";
 
 export default function InfoForm() {
@@ -7,7 +7,7 @@ export default function InfoForm() {
     <div className="main-app-container">
       <div className="main-form-container">
         <form className="form">
-          <FormInputs />
+          <Form />
         </form>
       </div>
       <h3 className="disclaimer-note">

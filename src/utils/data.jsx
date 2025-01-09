@@ -1,4 +1,4 @@
-export const formData = {
+export const formValidationData = {
   maxNameLength: 25,
   maxEmailLength: 50,
   maxAgeLength: 2,
@@ -10,46 +10,38 @@ export const formData = {
   verifyChar: /^[a-zA-Z]+$/,
 };
 
-export const checkboxInfo = [
+export const jobInfo = [
   {
-    name: "job 1",
-    forLabel: "job 1",
-    label: "Job 1",
+    value: "job 1",
+    description: "Job 1",
   },
   {
-    name: "job 2",
-    forLabel: "job 2",
-    label: "Job 2",
+    value: "job 2",
+    description: "Job 2",
   },
   {
-    name: "job 3",
-    forLabel: "job 3",
-    label: "Job 3",
+    value: "job 3",
+    description: "Job 3",
   },
   {
-    name: "job 4",
-    forLabel: "job 4",
-    label: "Job 4",
+    value: "job 4",
+    description: "Job 4",
   },
   {
-    name: "job 5",
-    forLabel: "job 5",
-    label: "Job 5",
+    value: "job 5",
+    description: "Job 5",
   },
   {
-    name: "job 6",
-    forLabel: "job 6",
-    label: "Job 6",
+    value: "job 6",
+    description: "Job 6",
   },
   {
-    name: "job 7",
-    forLabel: "job 7",
-    label: "Job 7",
+    value: "job 7",
+    description: "Job 7",
   },
   {
-    name: "job 8",
-    forLabel: "job 8",
-    label: "Job 8",
+    value: "job 8",
+    description: "Job 8",
   },
 ];
 

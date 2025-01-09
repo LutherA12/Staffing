@@ -1,5 +1,5 @@
 import "./App.scss";
-import { InfoForm, Errorpage, FAQs } from "./components/exports";
+import { InfoForm, Errorpage, FAQs, ThankYou } from "./components/exports";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Fragment } from "react";
 
@@ -12,6 +12,11 @@ const router = createBrowserRouter([
   {
     path: "/FAQs",
     element: <FAQs />,
+    errorElement: <Errorpage />,
+  },
+  {
+    path: "/ThankYou",
+    element: <ThankYou />,
     errorElement: <Errorpage />,
   },
 ]);
