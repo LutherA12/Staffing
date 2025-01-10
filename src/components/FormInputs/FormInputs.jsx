@@ -36,7 +36,7 @@ export default function FormInputs({
         maxLength={maxNameLength}
         minLength={minCharLength}
         autoFocus
-        required
+        //required
       />
       <input
         className="last-name input-fields"
@@ -46,7 +46,7 @@ export default function FormInputs({
         onChange={(event) => setLName(event.target.value)}
         maxLength={maxNameLength}
         minLength={minCharLength}
-        required
+        //required
       />
       <input
         className="age input-fields"
@@ -65,7 +65,7 @@ export default function FormInputs({
         onChange={(event) => setPhoneNum(event.target.value)}
         maxLength={phoneNumCharLength}
         minLength={phoneNumCharLength}
-        required
+        //required
       />
       <input
         className="email input-fields"
@@ -83,7 +83,7 @@ export default function FormInputs({
         onChange={(event) => setSSNum(event.target.value)}
         maxLength={ssCharLength}
         minLength={ssCharLength}
-        required
+        //required
       />
     </div>
   );

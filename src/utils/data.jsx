@@ -1,3 +1,5 @@
+const linebreak = <br />;
+
 export const formValidationData = {
   maxNameLength: 25,
   maxEmailLength: 50,
@@ -60,7 +62,7 @@ export const faqsInfo = [
     question:
       "Is there a way for me to keep track of my information in your system?",
     answer:
-      "Yes, once you submit your information you will be given an ID number. You don't need to copy the full thing just the first 5 characters are fine, you can then call us at anytime & ask to review the information you've given to us.",
+      "Yes, once you submit your information you will be given an ID number. You don't need to copy the full thing just the last 5 or 6 characters are fine. You can then call us anytime & ask to review the information you've given to us.",
   },
   {
     question:
@@ -86,3 +88,9 @@ export const faqsInfo = [
       "First & last name so that we know who to communicate with : ss number so that we can perform the necessary background check : phone number so that we can get ahold of you since everyone (generally) has a phone where they can be reached, but believe it or not, not everyone has an email address. ",
   },
 ];
+
+export const alerts = {
+  success:
+    "Your information was successfully submitted!\nYour submission ID is:",
+  failure: "Error adding information",
+};

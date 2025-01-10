@@ -3,11 +3,12 @@ import { app } from "../../utils/firebaseConfig";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 import { useState } from "react";
 import { FormDropdowns, FormInputs } from "../exports";
-import { useNavigate } from "react-router-dom";
+import { alerts } from "../../utils/data";
 
 export default function Form() {
   const db = getFirestore(app);
-  const navigate = useNavigate();
+
+  const { success, failure } = alerts;
 
   const [fName, setFName] = useState("");
   const [lName, setLName] = useState("");
@@ -42,9 +43,10 @@ export default function Form() {
         favJob2: dropdown2,
         favJob3: dropdown3,
       });
-      console.log(`Document written with ID: ${docRef.id}`);
+      alert(`${success} ${docRef.id}`);
     } catch (error) {
-      console.log(`Error adding document ${error}`);
+      alert(`${failure} ${error}`);
+      console.log(`${failure} ${error}`);
     }
   };
 
@@ -71,8 +73,6 @@ export default function Form() {
     setDropdown1("");
     setDropdown2("");
     setDropdown3("");
-
-    navigate("/ThankYou");
   };
 
   return (
@@ -100,7 +100,6 @@ export default function Form() {
         setDropdown3={setDropdown3}
       />
       <button className="form-submit-button" type="submit">
-        {" "}
         Submit
       </button>
     </form>
