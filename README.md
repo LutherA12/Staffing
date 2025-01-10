@@ -6,4 +6,4 @@
 
 01/09/2025: Another issue solved! I've initiated the useNavigate hook in order to send the user to the thank you page after form submission; I've also moved some of the divs & basic styles around to more closly match the components they reside in; I'm going to work on the thank you page next & then full styling comes last;
 
-01/09/2025: I've decided against a thank you page & gone with an alert instead; It a bit more concise & is just as informative as the thank you page would have been; The reason for this choice is due to the difficulty in trying to get the ref ID onto the thank you page, I would need to restructure a larger portion of code & that's not necessary for my goal here; Next I will work on the error page;
+01/09/2025: I've decided against a thank you page & gone with an alert instead; It's a bit more concise & is just as informative as the thank you page would have been; The reason for this choice is due to the difficulty in trying to get the ref ID onto the thank you page, I would need to restructure a larger portion of code & that's not necessary for my goal here; Next I will work on the error page;
